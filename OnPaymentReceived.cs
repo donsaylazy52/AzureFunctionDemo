@@ -33,7 +33,7 @@ namespace azFunctionDemo
 
             log.LogInformation($"Order {order.OrderId} received from {order.Email} for product {order.ProductId}");
 
-            return new OkObjectResult($"Thank you for your purchase");
+            return new OkObjectResult($"Thank you for your purchase (dev)");
         }
     }
 }
